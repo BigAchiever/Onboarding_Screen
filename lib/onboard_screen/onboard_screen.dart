@@ -102,6 +102,8 @@ class _OnBoardScreenState extends State<OnBoardScreen> {
             ),
           ),
         ),
+
+      //  Get started wala box hai yaha sey
       ):Padding(
         padding:  EdgeInsets.symmetric(horizontal: 8.h,vertical: 15),
         child: Container(
@@ -110,9 +112,9 @@ class _OnBoardScreenState extends State<OnBoardScreen> {
           decoration: BoxDecoration(
               color: const Color(0xff3B6EE9),
               borderRadius: BorderRadius.circular(45),
-              boxShadow: const [
-                BoxShadow(spreadRadius: 2,color: Color(0xff3B6EE9),offset: Offset(3, 3),blurRadius: 15)
-              ]
+              // boxShadow: const [
+              //   BoxShadow(spreadRadius: 2,color: Color(0xff3B6EE9),offset: Offset(3, 3),blurRadius: 15)
+              // ]
           ),
           margin:  EdgeInsets.only(bottom: 5.6.h),
           child: ElevatedButton(
