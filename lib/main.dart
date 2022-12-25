@@ -22,31 +22,7 @@ class _MyAppState extends State<MyApp> {
                 DeviceType deviceType) =>
             MaterialApp(
               debugShowCheckedModeBanner: false,
-              theme: ThemeData(
-                  textTheme: const TextTheme(
-                      headline1: TextStyle(
-                          fontFamily: 'Decker',
-                          fontSize: 10,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white),
-                      headline2: TextStyle(
-                          fontFamily: 'Decker',
-                          fontSize: 10,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white),
-                      headline3: TextStyle(
-                          fontFamily: 'Decker',
-                          fontSize: 10,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white),
-                      subtitle2: TextStyle(
-                          fontFamily: 'Decker',
-                          fontSize: 10,
-                          color: Colors.white70),
-                      bodyText1: TextStyle(
-                          fontFamily: 'Decker',
-                          fontSize: 10,
-                          color: Colors.white54))),
+              theme: ThemeData(primarySwatch: Colors.blue),
               themeMode: ThemeMode.dark,
               darkTheme: ThemeData(brightness: Brightness.dark),
               title: 'An Innovative App',

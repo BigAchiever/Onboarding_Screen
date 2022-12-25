@@ -116,6 +116,8 @@ class _OnBoardScreenState extends State<OnBoardScreen> {
               //   BoxShadow(spreadRadius: 2,color: Color(0xff3B6EE9),offset: Offset(3, 3),blurRadius: 15)
               // ]
           ),
+
+          // Third page get strated box part
           margin:  EdgeInsets.only(bottom: 5.6.h),
           child: ElevatedButton(
             style: ElevatedButton.styleFrom(
@@ -186,9 +188,9 @@ class SlideTile extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 12.0),
-            child: Text(title!, textAlign: TextAlign.center,style:  TextStyle(
-              fontWeight: FontWeight.w800,
-              fontSize: 18.sp,
+            child: Text(title!, textAlign: TextAlign.center,style:  const TextStyle(
+              fontWeight: FontWeight.w700,
+              fontSize: 26,
               color: Colors.white,
             ),
             ),
@@ -198,9 +200,9 @@ class SlideTile extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 12.0),
-            child: Text(desc!, textAlign: TextAlign.center,style: TextStyle(
-              fontWeight: FontWeight.w300,
-              fontSize: 12.sp,
+            child: Text(desc!, textAlign: TextAlign.center,style: const TextStyle(
+              fontWeight: FontWeight.w400,
+              fontSize: 18,
               color: Colors.greenAccent,
             ),),
           )
